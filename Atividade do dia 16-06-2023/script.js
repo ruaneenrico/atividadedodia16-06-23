@@ -12,6 +12,13 @@ function subtitulo(){
 }
 subtitulo()
 
+function descricao (){
+    var descricao = window.document.getElementById('descricao')
+    var resp_ti6 = prompt('insira uma descricao: ')
+    descricao.innerText = resp_ti6 
+}
+descricao()
+
 function itens1 (){
     var itens1 = window.document.getElementById('itens1')
     var resp_ti2 = prompt('insira o itens1: ')
@@ -39,3 +46,10 @@ function itens4 (){
     itens4.innerText = resp_ti5
 }
 itens4()
+
+function outrosit (){
+    var outrosit = window.document.getElementById('outrosit')
+    var resp_ti2 = prompt('insira um item: ')
+    outrosit.innerText = resp_ti2
+}
+outrosit()
